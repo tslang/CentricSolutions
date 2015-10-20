@@ -285,6 +285,16 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CentricSolutions.Domain\CentricSolutions.Domain.csproj">
+      <Project>{861cf187-54d3-4489-b360-028adba6f900}</Project>
+      <Name>CentricSolutions.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CentricSolutions.Infrastructure\CentricSolutions.Infrastructure.csproj">
+      <Project>{064bb148-6f86-4012-962d-320bf5164492}</Project>
+      <Name>CentricSolutions.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
