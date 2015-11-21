@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentricSolutions.Infrastruc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentricSolutions.Services", "CentricSolutions.Services\CentricSolutions.Services.csproj", "{82EBEC3D-2FA6-445F-BADA-F2AABE11A1F9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{D3B1ABE4-7F72-471E-B5D6-F93C21F2C4CB}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CentricSolutionsDB", "CentricSolutionsDB\CentricSolutionsDB.sqlproj", "{7FB6AD17-5446-403A-AC02-B69E44917C9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,8 +37,17 @@ Global
 		{82EBEC3D-2FA6-445F-BADA-F2AABE11A1F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82EBEC3D-2FA6-445F-BADA-F2AABE11A1F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82EBEC3D-2FA6-445F-BADA-F2AABE11A1F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FB6AD17-5446-403A-AC02-B69E44917C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FB6AD17-5446-403A-AC02-B69E44917C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FB6AD17-5446-403A-AC02-B69E44917C9E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7FB6AD17-5446-403A-AC02-B69E44917C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FB6AD17-5446-403A-AC02-B69E44917C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FB6AD17-5446-403A-AC02-B69E44917C9E}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7FB6AD17-5446-403A-AC02-B69E44917C9E} = {D3B1ABE4-7F72-471E-B5D6-F93C21F2C4CB}
 	EndGlobalSection
 EndGlobal
